@@ -1,0 +1,53 @@
+/* GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  background-color: hsl(210, 46%, 95%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTAINER */
+main {
+  background-color: white;
+  width: 85%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#drawers {
+  width: 100%;
+}
+
+.container {
+  padding: 25px;
+}
+
+h1 {
+  color: hsl(217, 19%, 35%);
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 0.8rem;
+  color: hsl(214, 17%, 51%);
+  margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+  position: absolute;
+  bottom: 20px;
+  width: 80%;
+  text-align: center;
+}
