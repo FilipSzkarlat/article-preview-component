@@ -26,22 +26,70 @@ main {
 
 #drawers {
   width: 100%;
+  margin-top: -15px;
+  margin-bottom: -50px;
+}
+
+/* IMAGE */
+.crop {
+  overflow: hidden;
 }
 
 .container {
   padding: 25px;
 }
 
+/* CONTENT */
 h1 {
   color: hsl(217, 19%, 35%);
   font-size: 1rem;
   margin-bottom: 15px;
+  line-height: 25px;
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: hsl(214, 17%, 51%);
-  margin-bottom: 30px;
+  line-height: 20px;
+}
+
+/* PROFILE */
+.profile {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+.profile-name {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: 700;
+  color: hsl(217, 19%, 35%);
+}
+
+#share-img {
+  height: 35px;
+  padding: 10px;
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  justify-self: flex-end;
 }
 
 /* FOOTER */
