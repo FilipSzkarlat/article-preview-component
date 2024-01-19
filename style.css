@@ -53,11 +53,12 @@ p {
   line-height: 20px;
 }
 
-/* PROFILE */
+/* PROFILE 1 */
 .profile {
   margin-top: 30px;
   display: flex;
   width: 100%;
+  height: 45px;
   align-items: center;
   justify-content: space-between;
 }
@@ -84,12 +85,45 @@ p {
   color: hsl(217, 19%, 35%);
 }
 
-#share-img {
+.share-img {
   height: 35px;
   padding: 10px;
   background-color: hsl(210, 46%, 95%);
   border-radius: 50%;
-  justify-self: flex-end;
+}
+
+#share-img:hover {
+  background-color: hsl(213, 18%, 61%);
+}
+
+/* PROFILE 2 (SHARE) */
+.profile-share {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: hsl(217, 19%, 35%);
+  height: 70px;
+  color: hsl(210, 46%, 95%);
+}
+
+h3 {
+  font-weight: 400;
+  opacity: 0.6;
+  letter-spacing: 5px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.profile-share img {
+  margin: 0 6px;
+}
+
+#share-img-hover {
+  background-color: hsl(213, 18%, 61%);
+}
+
+#share-img-hover:hover {
+  background-color: white;
 }
 
 /* FOOTER */
