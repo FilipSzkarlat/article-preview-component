@@ -133,3 +133,26 @@ footer {
   width: 80%;
   text-align: center;
 }
+
+/* DESkTOP VIEW  */
+@media (min-width: 500px) {
+  main {
+    display: flex;
+    max-width: 675px;
+  }
+
+  .container {
+    width: 60%;
+  }
+
+  .crop {
+    width: 40%;
+  }
+
+  #drawers {
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    object-position: 0%;
+  }
+}
