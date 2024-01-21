@@ -155,4 +155,39 @@ footer {
     margin: 0;
     object-position: 0%;
   }
+
+  #bubble-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    position: relative;
+    padding: 15px;
+    top: -115px;
+    left: 290px;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+    border-radius: 5px;
+  }
+
+  #bubble-div img {
+    height: 15px;
+    width: 15px;
+    margin-left: 8px;
+  }
+
+  #bubble-div h3 {
+    font-size: 0.6rem;
+  }
+
+  #bubble-triangle {
+    position: relative;
+    top: -115px;
+    left: 295px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid hsl(217, 19%, 35%);
+  }
 }

@@ -10,11 +10,21 @@ function changeColorBack() {
 }
 
 function changeProfile() {
-  if (document.getElementById("share-div").style.display === "none") {
-    document.getElementById("share-div").style.display = "flex";
-    document.getElementById("profile-div").style.display = "none";
+  if (window.innerWidth <= 375) {
+    if (document.getElementById("share-div").style.display === "none") {
+      document.getElementById("share-div").style.display = "flex";
+      document.getElementById("profile-div").style.display = "none";
+    } else {
+      document.getElementById("share-div").style.display = "none";
+      document.getElementById("profile-div").style.display = "flex";
+    }
   } else {
-    document.getElementById("share-div").style.display = "none";
-    document.getElementById("profile-div").style.display = "flex";
+    if (document.getElementById("bubble-div").style.display === "none") {
+      document.getElementById("bubble-div").style.display = "flex";
+      document.getElementById("bubble-triangle").style.display = "flex";
+    } else {
+      document.getElementById("bubble-div").style.display = "none";
+      document.getElementById("bubble-triangle").style.display = "none";
+    }
   }
 }
