@@ -10,6 +10,7 @@ function changeColorBack() {
 }
 
 function changeProfile() {
+  // Change for mobile
   if (window.innerWidth <= 375) {
     if (document.getElementById("share-div").style.display === "none") {
       document.getElementById("share-div").style.display = "flex";
@@ -18,13 +19,16 @@ function changeProfile() {
       document.getElementById("share-div").style.display = "none";
       document.getElementById("profile-div").style.display = "flex";
     }
+    // Change for Desktop
   } else {
     if (document.getElementById("bubble-div").style.display === "none") {
       document.getElementById("bubble-div").style.display = "flex";
       document.getElementById("bubble-triangle").style.display = "flex";
+      document.getElementById("just-a-space").style.display = "none";
     } else {
       document.getElementById("bubble-div").style.display = "none";
       document.getElementById("bubble-triangle").style.display = "none";
+      document.getElementById("just-a-space").style.display = "block";
     }
   }
 }

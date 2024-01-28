@@ -134,6 +134,11 @@ footer {
   text-align: center;
 }
 
+#just-a-space {
+  height: 40px;
+  display: none;
+}
+
 /* DESkTOP VIEW  */
 @media (min-width: 500px) {
   main {
@@ -189,5 +194,9 @@ footer {
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-top: 10px solid hsl(217, 19%, 35%);
+  }
+
+  #just-a-space {
+    display: block;
   }
 }
